@@ -67,6 +67,12 @@ return [
 
     ],
 
+    // Used for Backpack/LogManager
+    'storage' => [
+        'driver' => 'local',
+        'root' => storage_path(),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Symbolic Links
